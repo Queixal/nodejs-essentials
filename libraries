@@ -1,0 +1,6 @@
+- validator: validate strings
+- chalk: interesting library to edit console.log output colors to understand better what's happening
+- nodemon: it will relaunch the js launched with "nodemon app.js" command each time is updated to increase development speed
+- yargs: parse arguments from command line
+- request: wrapper for HTTP requests. DEPRECATED
+- postman-request: is the fork for request project now maintained by NPM
