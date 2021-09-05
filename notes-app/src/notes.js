@@ -41,6 +41,9 @@ const flushNotes = (notes) => {
 }
 
 const notesManager = {
+  append(text, folder, file) {
+    append(text, folder, file)
+  },
   get(title) {
      let results = loadNotes().filter(element => element.title == title)
      return results.length > 0 ? results[0] : null
