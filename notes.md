@@ -1,3 +1,4 @@
+# Relevant notes about node 
 - All environment api is available at https://nodejs.org/dist/latest-v16.x/docs/api/console.html 
 - To load custom js files you must call require function with "./" path.
 - If you want to load node_modules module, you just need to add the name of the module alone inside require method
@@ -7,4 +8,6 @@
 - to launch nodemon type "nodemon <js script>"
 - process.argv is the list of arguments passed to the node execution
 - debugger option will stop the node execution in the terminal and let yopu debugg the application
---to debug node you must launch node inspect in order to activate the debugger commands
+- to debug node you must launch node inspect in order to activate the debugger commands
+- node has global objects just as __dirname or __filename (https://nodejs.org/docs/latest/api/globals.html#globals_global_objects)
+- Path module let us play with paths instead to do it using strings https://nodejs.org/docs/latest/api/path.html#path_path

@@ -4,3 +4,6 @@
 - yargs: parse arguments from command line
 - request: wrapper for HTTP requests. DEPRECATED
 - postman-request: is the fork for request project now maintained by NPM
+- handlebars: Dynamic template engine for static sites (something as java jsp jstl)
+- express: api rest using javascript
+- hbs: handlebars integration with express
