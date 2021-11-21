@@ -4,7 +4,7 @@ NodeJs is javascript in the server side powered by the V8 javascript engine deve
 * Javascript doesn't support file system access or os check neither so for node, v8 is binding those functionalities
 
 # Differences between node and chrome js
-The main difference between those two uses of v8 engine are the bindings to c++ functions, in browser we have binfings to control teh browser itself, in node we have bindings to controle some parts of the operating system (inside the node environment generated for this v8 instance) 
+The main difference between those two uses of v8 engine are the bindings to c++ functions, in browser we have bindings to control the browser itself, in node we have bindings to control some parts of the operating system (inside the node environment generated for this v8 instance) 
 
 # Nodejs exclusives:
 * global : Global functionalities
